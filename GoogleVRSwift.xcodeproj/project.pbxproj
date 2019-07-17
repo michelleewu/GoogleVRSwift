@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A65E245022DF9B110044E1B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E244F22DF9B110044E1B7 /* AppDelegate.swift */; };
+		A65E245222DF9B110044E1B7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E245122DF9B110044E1B7 /* ViewController.swift */; };
+		A65E245522DF9B110044E1B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65E245322DF9B110044E1B7 /* Main.storyboard */; };
+		A65E245722DF9B130044E1B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A65E245622DF9B130044E1B7 /* Assets.xcassets */; };
+		A65E245A22DF9B130044E1B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65E245822DF9B130044E1B7 /* LaunchScreen.storyboard */; };
+		A65E246522DF9B130044E1B7 /* GoogleVRSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E246422DF9B130044E1B7 /* GoogleVRSwiftTests.swift */; };
+		A65E247022DF9B130044E1B7 /* GoogleVRSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A65E246F22DF9B130044E1B7 /* GoogleVRSwiftUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A65E246122DF9B130044E1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65E244422DF9B110044E1B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65E244B22DF9B110044E1B7;
+			remoteInfo = GoogleVRSwift;
+		};
+		A65E246C22DF9B130044E1B7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A65E244422DF9B110044E1B7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A65E244B22DF9B110044E1B7;
+			remoteInfo = GoogleVRSwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A65E244C22DF9B110044E1B7 /* GoogleVRSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoogleVRSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65E244F22DF9B110044E1B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A65E245122DF9B110044E1B7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A65E245422DF9B110044E1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A65E245622DF9B130044E1B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A65E245922DF9B130044E1B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A65E245B22DF9B130044E1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65E246022DF9B130044E1B7 /* GoogleVRSwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleVRSwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65E246422DF9B130044E1B7 /* GoogleVRSwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVRSwiftTests.swift; sourceTree = "<group>"; };
+		A65E246622DF9B130044E1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A65E246B22DF9B130044E1B7 /* GoogleVRSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoogleVRSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A65E246F22DF9B130044E1B7 /* GoogleVRSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleVRSwiftUITests.swift; sourceTree = "<group>"; };
+		A65E247122DF9B130044E1B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A65E244922DF9B110044E1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E245D22DF9B130044E1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E246822DF9B130044E1B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A65E244322DF9B110044E1B7 = {
+			isa = PBXGroup;
+			children = (
+				A65E244E22DF9B110044E1B7 /* GoogleVRSwift */,
+				A65E246322DF9B130044E1B7 /* GoogleVRSwiftTests */,
+				A65E246E22DF9B130044E1B7 /* GoogleVRSwiftUITests */,
+				A65E244D22DF9B110044E1B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A65E244D22DF9B110044E1B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A65E244C22DF9B110044E1B7 /* GoogleVRSwift.app */,
+				A65E246022DF9B130044E1B7 /* GoogleVRSwiftTests.xctest */,
+				A65E246B22DF9B130044E1B7 /* GoogleVRSwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A65E244E22DF9B110044E1B7 /* GoogleVRSwift */ = {
+			isa = PBXGroup;
+			children = (
+				A65E244F22DF9B110044E1B7 /* AppDelegate.swift */,
+				A65E245122DF9B110044E1B7 /* ViewController.swift */,
+				A65E245322DF9B110044E1B7 /* Main.storyboard */,
+				A65E245622DF9B130044E1B7 /* Assets.xcassets */,
+				A65E245822DF9B130044E1B7 /* LaunchScreen.storyboard */,
+				A65E245B22DF9B130044E1B7 /* Info.plist */,
+			);
+			path = GoogleVRSwift;
+			sourceTree = "<group>";
+		};
+		A65E246322DF9B130044E1B7 /* GoogleVRSwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				A65E246422DF9B130044E1B7 /* GoogleVRSwiftTests.swift */,
+				A65E246622DF9B130044E1B7 /* Info.plist */,
+			);
+			path = GoogleVRSwiftTests;
+			sourceTree = "<group>";
+		};
+		A65E246E22DF9B130044E1B7 /* GoogleVRSwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A65E246F22DF9B130044E1B7 /* GoogleVRSwiftUITests.swift */,
+				A65E247122DF9B130044E1B7 /* Info.plist */,
+			);
+			path = GoogleVRSwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A65E244B22DF9B110044E1B7 /* GoogleVRSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65E247422DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwift" */;
+			buildPhases = (
+				A65E244822DF9B110044E1B7 /* Sources */,
+				A65E244922DF9B110044E1B7 /* Frameworks */,
+				A65E244A22DF9B110044E1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoogleVRSwift;
+			productName = GoogleVRSwift;
+			productReference = A65E244C22DF9B110044E1B7 /* GoogleVRSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A65E245F22DF9B130044E1B7 /* GoogleVRSwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65E247722DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwiftTests" */;
+			buildPhases = (
+				A65E245C22DF9B130044E1B7 /* Sources */,
+				A65E245D22DF9B130044E1B7 /* Frameworks */,
+				A65E245E22DF9B130044E1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65E246222DF9B130044E1B7 /* PBXTargetDependency */,
+			);
+			name = GoogleVRSwiftTests;
+			productName = GoogleVRSwiftTests;
+			productReference = A65E246022DF9B130044E1B7 /* GoogleVRSwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A65E246A22DF9B130044E1B7 /* GoogleVRSwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A65E247A22DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwiftUITests" */;
+			buildPhases = (
+				A65E246722DF9B130044E1B7 /* Sources */,
+				A65E246822DF9B130044E1B7 /* Frameworks */,
+				A65E246922DF9B130044E1B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A65E246D22DF9B130044E1B7 /* PBXTargetDependency */,
+			);
+			name = GoogleVRSwiftUITests;
+			productName = GoogleVRSwiftUITests;
+			productReference = A65E246B22DF9B130044E1B7 /* GoogleVRSwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A65E244422DF9B110044E1B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Michelle Wu";
+				TargetAttributes = {
+					A65E244B22DF9B110044E1B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A65E245F22DF9B130044E1B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A65E244B22DF9B110044E1B7;
+					};
+					A65E246A22DF9B130044E1B7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A65E244B22DF9B110044E1B7;
+					};
+				};
+			};
+			buildConfigurationList = A65E244722DF9B110044E1B7 /* Build configuration list for PBXProject "GoogleVRSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A65E244322DF9B110044E1B7;
+			productRefGroup = A65E244D22DF9B110044E1B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A65E244B22DF9B110044E1B7 /* GoogleVRSwift */,
+				A65E245F22DF9B130044E1B7 /* GoogleVRSwiftTests */,
+				A65E246A22DF9B130044E1B7 /* GoogleVRSwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A65E244A22DF9B110044E1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65E245A22DF9B130044E1B7 /* LaunchScreen.storyboard in Resources */,
+				A65E245722DF9B130044E1B7 /* Assets.xcassets in Resources */,
+				A65E245522DF9B110044E1B7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E245E22DF9B130044E1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E246922DF9B130044E1B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A65E244822DF9B110044E1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65E245222DF9B110044E1B7 /* ViewController.swift in Sources */,
+				A65E245022DF9B110044E1B7 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E245C22DF9B130044E1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65E246522DF9B130044E1B7 /* GoogleVRSwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A65E246722DF9B130044E1B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A65E247022DF9B130044E1B7 /* GoogleVRSwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A65E246222DF9B130044E1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65E244B22DF9B110044E1B7 /* GoogleVRSwift */;
+			targetProxy = A65E246122DF9B130044E1B7 /* PBXContainerItemProxy */;
+		};
+		A65E246D22DF9B130044E1B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A65E244B22DF9B110044E1B7 /* GoogleVRSwift */;
+			targetProxy = A65E246C22DF9B130044E1B7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A65E245322DF9B110044E1B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65E245422DF9B110044E1B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A65E245822DF9B130044E1B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A65E245922DF9B130044E1B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A65E247222DF9B130044E1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A65E247322DF9B130044E1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A65E247522DF9B130044E1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A65E247622DF9B130044E1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A65E247822DF9B130044E1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleVRSwift.app/GoogleVRSwift";
+			};
+			name = Debug;
+		};
+		A65E247922DF9B130044E1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwiftTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoogleVRSwift.app/GoogleVRSwift";
+			};
+			name = Release;
+		};
+		A65E247B22DF9B130044E1B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleVRSwift;
+			};
+			name = Debug;
+		};
+		A65E247C22DF9B130044E1B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PTPTVUXK8V;
+				INFOPLIST_FILE = GoogleVRSwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.lab.test.GoogleVRSwiftUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GoogleVRSwift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A65E244722DF9B110044E1B7 /* Build configuration list for PBXProject "GoogleVRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65E247222DF9B130044E1B7 /* Debug */,
+				A65E247322DF9B130044E1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65E247422DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65E247522DF9B130044E1B7 /* Debug */,
+				A65E247622DF9B130044E1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65E247722DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65E247822DF9B130044E1B7 /* Debug */,
+				A65E247922DF9B130044E1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A65E247A22DF9B130044E1B7 /* Build configuration list for PBXNativeTarget "GoogleVRSwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A65E247B22DF9B130044E1B7 /* Debug */,
+				A65E247C22DF9B130044E1B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A65E244422DF9B110044E1B7 /* Project object */;
+}
